@@ -1,0 +1,72 @@
+/*-----------down to top*/
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#topBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/*admin login*/
+
+.admin_card{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.customer_reg{
+    background-image: url("../../images/welcome-img.png");
+    height: auto;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/*rating*/
+.post:last-child{
+    border: 0;
+}
+
+.post h1{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.post a.link{
+    text-decoration: none;
+    color: black;
+}
+.post-text{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: serif;
+    color: gray;
+    text-align: justify;
+}
+.post-action{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.like,.unlike{
+    border: 0;
+    background: none;
+    letter-spacing: 1px;
+    color: lightseagreen;
+}
+
+.like,.unlike:hover{
+    cursor: pointer;
+}
+
+

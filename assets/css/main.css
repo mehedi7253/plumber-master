@@ -1,0 +1,77 @@
+/* start header area */
+
+header{
+    width: 100%;
+    z-index: 100;
+}
+.slide-container-fluid{
+    position: relative;
+    top: 55px;
+    margin-bottom: 58px;
+    width: 100%;
+}
+.bg-color{
+    background-color: #1BBD36;
+}
+.bg-gray{
+    background-color: #ddd;
+}
+.navbar-brand h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 10px;
+    float: left;
+}
+.navbar-brand h1 span{
+    color: #1BBD36;
+}
+#myMenu ul li{
+    text-align: center;
+}
+#myMenu ul li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 30px;
+    text-transform: uppercase;
+}
+#myMenu ul li a.active{
+    color: #1BBD36;
+}
+#myMenu ul li a:hover{
+    color: #1BBD36;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+/*slider*/
+
+.slider_contatct{
+    position: relative;
+    margin-top: -550px;
+    margin-left: 150px;
+}
+.slider_img{
+    height: 700px;
+}
+
+/*service offer*/
+
+.service_offer{
+    background-color: #F5FAFE;
+
+}
+/*blog*/
+.blog{
+    background-color: #FFFFFF;
+}
+/*clever staff*/
+
+.clever_staff{
+    background-color: #F5FAFE;
+}
+
+
